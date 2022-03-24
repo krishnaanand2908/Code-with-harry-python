@@ -27,6 +27,4 @@ print(int(var7) + int(var8) + int(var9))
     float()
 """
 
-print(100 * (var1 + var2 + var3))
-
-    
+print(100 * (var1 + var2 + var3))   
