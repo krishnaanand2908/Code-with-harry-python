@@ -26,3 +26,6 @@ print("'in' and 'not in'")
 l = [1, 2, 3, 4, 5, 6, 0]
 print(1 in l)
 print(8 not in l)
+
+print("Bitwise Operators")
+print("& and |")
