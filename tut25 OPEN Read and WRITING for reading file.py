@@ -6,7 +6,9 @@ f = open("lol.txt", "rt")
 
 # for line in f:
 #     print(line)
+
 # print(f.readline())
 # print(f.readline())
 # print(f.readline())
-print(f.readlines())
+
+# print(f.readlines())

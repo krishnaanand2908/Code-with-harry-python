@@ -1,0 +1,8 @@
+with open ("Krishna.txt") as f:
+    a = f.read(4)
+    print(a)
+
+
+f = open("Krishna.txt")
+print(f.readline())
+f.close
