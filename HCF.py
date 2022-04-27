@@ -1,7 +1,16 @@
-num1 = float(input("Input first number:\n"))
-num2 = float(input("Input second number:\n")) 
+while(True):
+    def hcf(a, b):
+        if a == 0:
+            return b
+        elif b == 0:
+            return a
+        else:
+            return hcf(b%a, a)
+    num1 = int(input("num1"))
+    num2 = int(input("num2"))
 
-lcm = 1
+    print("The hcf of", num1, "and", num2, "is", hcf(num1, num2))
+    continue
 
-while(lcm == 1):
-    print()
+
+        
